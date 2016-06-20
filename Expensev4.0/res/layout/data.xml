@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="#BDB76B"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/home" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button2"
+        android:text="@string/records_"
+        android:textSize="23sp" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:scrollHorizontally="true"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/indivbtn"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/show_individual" />
+
+    <Button
+        android:id="@+id/delbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/button_custom2"
+        android:text="@string/delete" />
+
+    <Button
+        android:id="@+id/delrecbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/delbtn"
+        android:layout_alignBottom="@+id/delbtn"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_custom2"
+        android:text="@string/delete_record" />
+
+</RelativeLayout>

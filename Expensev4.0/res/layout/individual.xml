@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDB76B"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/gobtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/spinforindiv"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/spinforindiv"
+        android:background="@drawable/button_custom"
+        android:text="@string/go" />
+
+    <Spinner
+        android:id="@+id/spinforindiv"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/spinnerbg"
+        android:prompt="@string/country_prompt" />
+
+</RelativeLayout>

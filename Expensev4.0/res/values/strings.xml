@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Money Records</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Copyright</string>
+    <string name="i_am_ready_to_go_">READY</string>
+    <string name="money_tracker">Money Tracker</string>
+    <string name="this_app_will_surely_help_you_to_maintain_your_money_record_among_your_friends_">This app will surely help you to maintain your money record among your community.</string>
+    
+    <string name="proceed_">Proceed!</string>
+    
+    <string name="i_ve_taken_money_">I\'ve taken money !</string>
+    
+    <string name="i_ve_given_money_">I\'ve given money !</string>
+    
+    <string name="logout_settings">Logout</string>
+    
+    <string name="changeacc_settings">Change Account</string>
+       
+    <string name="save_">SAVE !</string>
+    
+    <string name="username">Username</string>
+    
+    <string name="password">Password</string>
+    
+    <string name="show_all_records_">Show All Records</string>
+    
+    <string name="amount_of_money_">Amount</string>
+    
+    <string name="delete_database">Delete All Records</string>
+    
+    <string name="name_">Name</string>
+    
+    <string name="date">Date</string>
+    
+    <string name="home">HOME</string>
+    
+    <string name="records_">RECORDS :</string>
+    
+    <string name="login">Login</string>
+    
+    <string name="signup">Make One</string>
+    
+    <string name="full_name">Full Name</string>
+    
+    <string name="confirm_password">Confirm Password</string>
+    
+    <string name="done">Done</string>
+    
+    <string name="logout">Logout</string>
+        
+    <string name="enter_id">Enter ID</string>
+    
+    <string name="confirm">Confirm</string>
+    
+    <string name="no_name_type_amount_date">No.    Name    Type   Amount   Date</string>
+    
+    <string name="no_">No.</string>
+    
+    <string name="name">Name</string>
+    
+    <string name="type">Type</string>
+    
+    <string name="amount">Amount</string>
+    
+    <string name="go">Go</string>
+    
+    <string name="change_password">change password</string>
+    
+    <string name="enter_old_password">Enter Old Password</string>
+    
+    <string name="enter_new_password">Enter New Password</string>
+    
+    <string name="enter_name">Enter Name</string>
+    
+    <string name="change_details">Change Details</string>
+    
+    <string name="country_prompt">Select a name</string>
+    
+    <string name="borrow">Borrow</string>
+    
+    <string name="lend">Lend</string>
+        
+   	<string name="add_person">Add Person</string>
+        			
+   	<string name="add_record">Add Record</string>
+        
+    <string name="for_what_">For What ?</string>
+        
+    <string name="show_individual">Show Individual</string>
+        
+    <string name="this_is_copyright_n_by_nitesh_sarode">This is Copyright. \n By Nitesh Sarode</string>
+        
+    <string name="goes">GOES</string>
+        
+    <string name="money">MONEY</string>
+        
+    <string name="nowhere">NOWHERE</string>
+        
+    <string name="delete">Delete Name</string>
+        
+    <string name="delete_record">Delete Record</string>
+        
+    <string name="ok">OK</string>
+        
+    <string name="del">DEL</string>
+
+</resources>
